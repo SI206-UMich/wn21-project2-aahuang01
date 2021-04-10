@@ -106,7 +106,6 @@ def summarize_best_books(filepath):
 		url = var["href"]
 		tpl = (str(cat.strip()), str(t), str(url))
 		besttuples.append(tpl)
-
 	return besttuples
 
 
